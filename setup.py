@@ -4,12 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 install_requires = [
-    'rest_framework',
+    'djangorestframework',
+    'markdown',       # Markdown support for the browsable API.
+    'django-filter',  # Filtering support
 ]
 
 setup(
     name="django_road",
-    version='0.1',
+    version='0.2',
     description='ROAD - REST ORM API for Django',
     long_description=long_description,
     long_description_content_type="text/markdown",
