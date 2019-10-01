@@ -15,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     license='The MIT License',
     platforms=['OS Independent'],
-    keywords='django, mango, rest, api, orm',
+    keywords='django, road, rest, api, orm',
     author='Thomas Uher',
     author_email='thomas.uher@sisol-systems.com',
     url='https://github.com/SiSol-Systems/django-road',
