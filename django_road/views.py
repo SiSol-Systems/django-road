@@ -66,6 +66,8 @@ class RemoteDBAPI(GenericAPIView):
 
         serializer_class = getattr(SERIALIZERS, serializer_name)
 
+        serializer_class.request = self.request
+
         return serializer_class
 
     # called in the beginning
